@@ -1,0 +1,16 @@
+{
+    "proxyServer" : {
+        "ipaddr" : "127.0.0.1",
+        "port" : 9999,
+        "websocketAPI" : ["/logs"],
+        "videostream" : ["/video_feed"]
+    },
+    "flaskServer" : {
+        "ipaddr" : "127.0.0.1",
+        "port" : 8888
+    },
+    "webSocketServer" : {
+        "ipaddr" : "127.0.0.1",
+        "port" : 5555
+    }
+}
